@@ -89,8 +89,12 @@ nav .collapse > ul > li > a::after {
     margin: auto;
     top: 90%;
     left: 0;
-    transform: translateX(-83%);
-  }
+    transform: translateX(-85%);
+    -webkit-transform: translateX(-85%);
+    -moz-transform: translateX(-85%);
+    -ms-transform: translateX(-85%);
+    -o-transform: translateX(-85%);
+}
   .navbar-collapse a {
     color: #4e4e4e;
   }
